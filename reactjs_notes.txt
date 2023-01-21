@@ -1,0 +1,119 @@
+
+setup start react js framework:
+--------------------------------------------------------------------------------------------
+//index.js
+import React from "react";
+import ReactDOM  from "react-dom";
+import App from "./App";
+
+ReactDOM.render(<App/>, document.getElementById("root"));
+
+-----------------------------------------------------------------------------
+//App.jsx
+-----------------------------------------------------------------------------
+import React from "react";
+
+const App = () => {
+    return <h1>Hi My name is Ankit kushwaha</h1>;
+};
+
+export default App;
+
+-----------------------------------------------------------------------------
+
+And then set Router
+
+
+//index.js
+import React from "react";
+import ReactDOM  from "react-dom";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+
+ReactDOM.render(
+<BrowserRouter>
+<App/>
+</BrowserRouter>
+
+
+, document.getElementById("root"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#npx create-react-app hello
+#npm install -g create-react-app
+#learn
+https://www.freecodecamp.org/news/react-router-in-5-minutes/
+#npm install react-router-dom
+#npm install --save react-router-dom
+#npm install react-router-dom@6
+#npm install --save react-helmet
+
+
+
+#create-react-app react_file  
+#npm start       
+#npm install tachyons			---> for exise >     #import 'tachyons';
+#npm install bootstrap
+#npm i react-router-dom   --->         
+#npm install --save react-helmet
+#<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    
+
+  --in package.json file
+setup 1:
+"homepage": "https://myusername.github.io/my-app",
+
+
+setup 2:
+npm install --save gh-pages
+
+setup 3:
+//debug
+"scripts": {
+
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+
+setup 4: 
+npm run deploy
+
+
+
+
+
+
+
+setup 5:
+…or create a new repository on the command line
+echo "# createApp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ankitkushwaha90/createApp.git
+git push -u origin main
+
+
+
+
+setup 6:
+…or push an existing repository from the command line
+git remote add origin https://github.com/Ankitkushwaha90/createApp.git
+git branch -M main
+git push -u origin main
+
+
+setup router v6:
+https://youtu.be/Oia0uO65nwg?list=PLwGdqUZWnOp1bMwGTJVaQmdwbmX61iceM
